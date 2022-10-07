@@ -1,0 +1,40 @@
+import os
+os.system("cls")
+
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+       print(x)
+print()
+
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+       print(thistuple[i])
+print()
+
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+       print(thistuple[i])
+       i = i + 1
+print()
+
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+tuple3 = tuple1 + tuple2
+print(tuple3)
+print()
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+print(mytuple)
+print()
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+print(mytuple.count("banana"))
+print()
+
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+x = thistuple.index(8)
+print(x)
+print()

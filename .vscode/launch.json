@@ -1,0 +1,35 @@
+{
+       "configurations": [
+              
+
+
+              
+              {
+                     "type": "chrome",
+                     "request": "attach",
+                     "name": "Attach to Chrome",
+                     "port": 9222,
+                     "webRoot": "${workspaceFolder}"
+              },
+              {
+                     "name": "Attach to Chrome",
+                     "port": 9222,
+                     "request": "attach",
+                     "type": "pwa-chrome",
+                     "webRoot": "${workspaceFolder}"
+              },
+              {
+                     "name": "Python: Current File",
+                     "type": "python",
+                     "request": "launch",
+                     "program": "${file}",
+                     "console": "integratedTerminal"
+              },
+              {
+                     "name": "Launch Microsoft Edge and open the Edge DevTools",
+                     "request": "launch",
+                     "type": "vscode-edge-devtools.debug",
+                     "url": "" // Provide your project's url to finish configuring
+              }
+       ]
+}

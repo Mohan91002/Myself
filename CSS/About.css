@@ -1,0 +1,60 @@
+h2
+{
+    text-align: center;
+}
+pre
+{
+    font-family: 'Times New Roman';
+    word-spacing: normal;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    width: 100%;
+}
+a
+{
+    text-decoration:none;
+}
+img
+{
+    float:left;
+}
+body
+{
+    background-color: beige;
+    margin-left: 25px;
+    margin-top: 16px;
+}
+table,tr,td
+{
+    border: 2px solid black;
+    border-radius: 50%;
+    border-collapse: collapse;
+    width: auto;
+    text-align: center;
+}
+th
+{
+    border: 2px solid black;
+    border-radius: 50%;
+    border-collapse: collapse;
+    text-align: center;
+}
+h2,h3
+{
+    color: red;
+    line-height: 0px;
+}
+p
+{
+    text-indent: 43px;
+    text-align: justify;
+}
+li
+{
+    line-height: 25px;
+}
+address
+{
+    font-style: normal;
+}

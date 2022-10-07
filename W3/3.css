@@ -1,0 +1,39 @@
+.flex-container {
+
+       background-color: #ebebeb;
+       border-radius: 8px;
+       border: 2px solid #0085ff;
+
+}
+
+.munna {
+       background-color: #f3f3f3;
+       display: flexbox;
+       width: 75px;
+       height: 75px;
+       margin: 10px;
+       border-radius: 8px;
+       float: right;
+       border: 2px solid #0085ff;
+       position: relative;
+       top: -25px;
+       box-sizing: border-box;
+
+}
+
+.button2 {
+       border-radius: 8px;
+       border: 2px solid #0085ff;
+       background-color: #f3f3f3;
+       color: black;
+       padding: 7px;
+       position: relative;
+       left: 34px;
+       top: 25px;
+}
+
+#h {
+       color: #0085ff;
+       font-size: 16px;
+
+}

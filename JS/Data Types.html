@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+</head>
+       <body>
+              <p id = "demo"></p>
+              <script>
+                     var x = 16 + ' ' + "Volvo";
+                     document.getElementById("demo").innerHTML = x;
+              </script>
+              <p id = "demo2"></p>
+              <script>
+                     var x = "Volvo" + ' ' + 16;
+                     document.getElementById("demo2").innerHTML = x;
+              </script>
+              <p id = "demo3"></p>
+              <script>
+                     var x = "Volvo" + ' ' + 4 + ' '+ 16;
+                     document.getElementById("demo3").innerHTML = x;
+              </script>
+              <p id = "demo4"></p>
+              <script>
+                     var x = 4 + 16 + ' ' + "Volvo";
+                     document.getElementById("demo4").innerHTML = x;
+              </script>
+              <p id="demo5"></p>
+              <script>
+                     var x;         // Now x is undefined
+                     x = 5;         // Now x is a Number
+                     x = "John";    // Now x is a String
+                     document.getElementById("demo5").innerHTML = x;
+              </script>
+              <p id="demo6"></p>
+              <script>
+                     var x;         // Now x is undefined
+                     x = "John";    // Now x is a String
+                     x = 5;         // Now x is a Number
+                     document.getElementById("demo6").innerHTML = x;
+              </script>
+              <p id="demo7"></p>
+              <script>
+                     var x = "Munna 'radha' "
+                     document.getElementById("demo7").innerHTML = x;
+              </script>
+              <p id="demo8"></p>
+              <script>
+                     var x = 'Munna "radha"'
+                     document.getElementById("demo8").innerHTML = x;
+              </script>
+              <p id="demo9"></p>
+              <script>
+                     var x = 143
+                     document.getElementById("demo9").innerHTML = x;
+              </script>
+              <p id="demo10"></p>
+              <script>
+                     var x = 143.225
+                     document.getElementById("demo10").innerHTML = x;
+              </script>
+              <p id="demo11"></p>
+              <script>
+                     let y = 123e5;
+                     let z = 123e-5;
+                     document.getElementById("demo11").innerHTML = y + "<br>" + z;
+              </script>
+              <p id="demo12"></p>
+              <script>
+                     let a = 5;
+                     let b = 5;
+                     let c = 6;
+                     document.getElementById("demo12").innerHTML = (a == b) + "<br>" + (a == c);
+              </script>
+              <p id = "demo13"></p>
+              <script>
+                     var cars = ["BMW ", "RR ", "audi"]
+                     document.getElementById("demo13").innerHTML = cars
+              </script>
+              <p id = "demo14"></p>
+              <script>
+                     var cars = ["BMW ", "RR ", "audi"]
+                     document.getElementById("demo14").innerHTML = cars[2]
+              </script>
+              <p id = "demo15"></p>
+              <script>
+                     const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+                     document.getElementById("demo15").innerHTML =    person
+              </script>
+              <p id = "demo16"></p>
+              <script>
+                     const persons = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+                     document.getElementById("demo16").innerHTML =    persons.firstName + "<br>" +  persons.lastName +   "<br>" + persons.age + "<br>" + persons.eyeColor
+              </script>
+              <p id="demo17"></p>
+              <script>
+                     document.getElementById("demo17").innerHTML =    typeof        0      +      "<br>"        + 
+                                                                      typeof        314    +      "<br>"        +
+                                                                      typeof        3.14   +      "<br>"        +
+                                                                      typeof        (3)    +      "<br>"        +
+                                                                      typeof        (3 + 4)+      "<br>"        +
+                                                                      typeof        ""     +      "<br>"        +
+                                                                      typeof        "John";
+              </script>
+              <p id="demo18"></p>
+              <script>
+                     let car;
+                     document.getElementById("demo18").innerHTML      =      car + "<br>" + typeof car;
+              </script>
+              <p id="demo19"></p>
+              <script>
+                     var cars = "Volvo";
+                     cars = undefined;
+                     document.getElementById("demo19").innerHTML      =      cars + "<br>" + typeof cars;
+              </script>
+              <p id="demo20"></p>
+              <script>
+                     var cars = "Mohan";
+                     document.getElementById("demo20").innerHTML      =      cars + "<br>" + typeof cars;
+              </script>
+       </body>
+</html>

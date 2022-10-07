@@ -1,0 +1,17 @@
+button
+{
+    color: red;
+    border: 2px dashed blue;
+    border-radius: 8px;
+    margin: 25px;
+    cursor: pointer;
+}
+body
+{
+    background-color: rgba(145, 89, 89, 0.479);
+}
+h1
+{
+    text-align: center;
+    color: blue;
+}

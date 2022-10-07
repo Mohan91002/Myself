@@ -1,0 +1,35 @@
+.flex-container {
+       display: flexbox;
+       background-color: #f3f3f3;
+       border-radius: 8px;
+       border: 2px solid #0085ff;
+       box-sizing: auto;
+}
+
+.mohan {
+
+       background-color: #0085ff;
+       border: none;
+       width: 100px;
+       height: 100px;
+       border-radius: 8px;
+       margin-top: -160px;
+       float: right;
+}
+
+p,
+address {
+       font-size: 25px;
+       margin: 34px;
+}
+
+.button1 {
+       border-radius: 8px;
+       border: none;
+       background-color: #0085ff;
+       color: white;
+       padding: 17px;
+       position: relative;
+       left: 34px;
+       top: -25px;
+}

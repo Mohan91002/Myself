@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+</head>
+
+<body>
+       <p id="demo"></p>
+       <p id="demo2"></p>
+       <p id="demo3"></p>
+       <p id="demo4"></p>
+       <p id="demo5"></p>
+       <script>
+              var text = "hello world";
+              document.getElementById("demo").innerHTML = text;
+              var text = `He's often called "Johnny"`;
+              document.getElementById("demo2").innerHTML = text;
+              var text = `  He's 
+                            often 
+                            called 
+                            "Johnny"`;
+              document.getElementById("demo3").innerHTML = text;
+              var firstName = "John";
+              var lastName = "Doe";
+              var text = `Welcome ${firstName}, ${lastName}!`;
+              document.getElementById("demo4").innerHTML = text; //${...} string interpolation
+              var price = 10;
+              var VAT = 0.25;
+              var total = `Total: ${(price * (1 + VAT)).toFixed(2)}`;
+              document.getElementById("demo5").innerHTML = total;
+       </script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+import os 
+import numpy as np
+os.system("cls")
+
+a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+b = np.array([[9, 10, 11, 12],[13, 14, 15, 16]])
+c = np.concatenate((a,b))
+print(c)
+print()
+
+a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+b = np.array([[9, 10, 11, 12],[13, 14, 15, 16]])
+c = np.concatenate((a,b), axis=1)
+print(c)
+print()
+
+a = np.array([1, 2, 3, 4])
+b = np.array([9, 10, 11, 12])
+c = np.stack((a,b))
+print(c)
+print()
+
+a = np.array([1, 2, 3, 4])
+b = np.array([9, 10, 11, 12])
+c = np.stack((a,b), axis=1)
+print(c)
+print()
+
+a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+b = np.array([[9, 10, 11, 12],[13, 14, 15, 16]])
+c = np.stack((a,b))
+print(c)
+print()
+
+a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+b = np.array([[9, 10, 11, 12],[13, 14, 15, 16]])
+c = np.stack((a,b), axis=1)
+print(c)
+print()
+
+a = np.array([1, 2, 3, 4])
+b = np.array([9, 10, 11, 12])
+c = np.hstack((a,b))
+print(c)
+print()
+
+a = np.array([1, 2, 3, 4])
+b = np.array([9, 10, 11, 12])
+c = np.hstack((a,b))
+print(c)
+print()
+
+a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+b = np.array([[9, 10, 11, 12],[13, 14, 15, 16]])
+c = np.hstack((a,b))
+print(c)
+print()
+
+a = np.array([1, 2, 3, 4])
+b = np.array([9, 10, 11, 12])
+c = np.vstack((a,b))
+print(c)
+print()
+
+a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+b = np.array([[9, 10, 11, 12],[13, 14, 15, 16]])
+c = np.vstack((a,b))
+print(c)
+print()
+
+a = np.array([1, 2, 3, 4])
+b = np.array([9, 10, 11, 12])
+c = np.dstack((a,b))
+print(c)
+print()
+
+a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+b = np.array([[9, 10, 11, 12],[13, 14, 15, 16]])
+c = np.dstack((a,b))
+print(c)
